@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="keys">
+      <div class="key" key-data="65">
+        <kbd>A</kbd>
+        <span class="sound">CRASH</span>
+      </div>
+      <div class="key" key-data="83">
+        <kbd>S</kbd>
+        <span class="sound">OPEN HAT</span>
+      </div>
+      <div class="key" key-data="68">
+        <kbd>D</kbd>
+        <span class="sound">CLOSE HAT</span>
+      </div>
+      <div class="key" key-data="70">
+        <kbd>F</kbd>
+        <span class="sound">KICK</span>
+      </div>
+      <div class="key" key-data="71">
+        <kbd>G</kbd>
+        <span class="sound">RIDE</span>
+      </div>
+      <div class="key" key-data="72">
+        <kbd>H</kbd>
+        <span class="sound">SNARE</span>
+      </div>
+      <div class="key" key-data="74">
+        <kbd>J</kbd>
+        <span class="sound">T HIGH</span>
+      </div>
+      <div class="key" key-data="75">
+        <kbd>K</kbd>
+        <span class="sound">T MID</span>
+      </div>
+      <div class="key" key-data="76">
+        <kbd>L</kbd>
+        <span class="sound">T LOW</span>
+      </div>
+    </div>
+    <!-- audio -->
+    <audio key-data="65" src="./Sounds/crash.wav"></audio>
+    <audio key-data="83" src="./Sounds/hihat-open.wav"></audio>
+    <audio key-data="68" src="./Sounds/hihat-close.wav"></audio>
+    <audio key-data="70" src="./Sounds/kick.wav"></audio>
+    <audio key-data="71" src="./Sounds/ride.wav"></audio>
+    <audio key-data="72" src="./Sounds/snare.wav"></audio>
+    <audio key-data="74" src="./Sounds/tom-high.wav"></audio>
+    <audio key-data="75" src="./Sounds/tom-mid.wav"></audio>
+    <audio key-data="76" src="./Sounds/tom-low.wav"></audio>
+    <!-- endo of audio -->
+
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
